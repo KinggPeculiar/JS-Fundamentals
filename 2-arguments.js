@@ -5,10 +5,12 @@
 //     Otherwise, print “Arguments found”
 //     You must use console.log(...) to print all output
 //     You are not allowed to use var
-function sum(num1, num2){
-    return num1 + num2;
+const code = ['java', 'javascript', 'python'];
+
+if (code.length === 0) {
+  console.log('No argument');
+} else if (code.length === 1) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
 }
-
-let result = sum(5, 2);
-
-console.log(result);
