@@ -1,0 +1,1 @@
+A Task by ALX to write a script in JavaScript that logs/prints "JavaScript is Amazing". onto the console.
