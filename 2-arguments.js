@@ -10,8 +10,6 @@
 
     for (let i = 0; i <= 3; i++) {
       const args = sampleArgs.slice(0, i); // simulate different argument counts
-
-      console.log(`Testing with ${args.length} argument(s):`);
       
       if (args.length === 0) {
         console.log("0 argument");
