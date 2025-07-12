@@ -6,16 +6,12 @@
 //     You must use console.log(...) to print all output
 //     You are not allowed to use var
 
- const sampleArgs = ["arg1", "arg2", "arg3"];
+const args = process.argv.slice(2); // Get user-passed arguments
 
-    for (let i = 0; i <= 3; i++) {
-      const args = sampleArgs.slice(0, i); // simulate different argument counts
-      
-      if (args.length === 0) {
-        console.log("0 argument");
-      } else if (args.length === 1) {
-        console.log("1 argument");
-      } else {
-        console.log("3 arguments");
-      }
-    }
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log(`${args.length} arguments found`);
+}
