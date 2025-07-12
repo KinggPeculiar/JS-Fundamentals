@@ -6,20 +6,32 @@
 //     You must use console.log(...) to print all output
 //     You are not allowed to use var
 
- const sampleArgs = ["arg1", "arg2", "arg3"];
+//  const sampleArgs = ["arg1", "arg2", "arg3"];
 
-    for (let i = 0; i <= 3; i++) {
-      const args = sampleArgs.slice(0, i); // simulate different argument counts
+//     for (let i = 0; i <= 3; i++) {
+//       const args = sampleArgs.slice(0, i); // simulate different argument counts
 
-      console.log(`Testing with ${args.length} argument(s):`);
+//       console.log(`Testing with ${args.length} argument(s):`);
       
-      if (args.length === 0) {
-        console.log("No argument");
-      } else if (args.length === 1) {
-        console.log("Argument found");
-      } else {
-        console.log("Arguments found");
-      }
+//       if (args.length === 0) {
+//         console.log("No argument");
+//       } else if (args.length === 1) {
+//         console.log("Argument found");
+//       } else {
+//         console.log("Arguments found");
+//       }
 
-      console.log("------"); // separator for clarity
+//       console.log("------"); // separator for clarity
+//     }
+
+function myFunction(...args) {
+  If (args.length ==0) {
+    console.log("No argument");
+  } else {
+
+  console.log("Number of arguments:", args.length);
+    for (let arg of args) {
+      console.log(arg);
     }
+  }
+}
