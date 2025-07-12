@@ -28,9 +28,9 @@ if (code.length === 0) {
   console.log('Arguments found');
 }
 
-const code = ['java', 'python'];
+const cod = ['java', 'python'];
 
-if (code.length === 0) {
+if (cod.length === 0) {
   console.log('No argument');
 } else if (code.length === 1) {
   console.log('Argument found');
@@ -38,9 +38,9 @@ if (code.length === 0) {
   console.log('Arguments found');
 }
 
-const code = ['java'];
+const c = ['java'];
 
-if (code.length === 0) {
+if (c.length === 0) {
   console.log('No argument');
 } else if (code.length === 1) {
   console.log('Argument found');
