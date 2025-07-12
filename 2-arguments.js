@@ -6,44 +6,20 @@
 //     You must use console.log(...) to print all output
 //     You are not allowed to use var
 
-// let sum1 = 1;
-// let sum2 = 1;
+ const sampleArgs = ["arg1", "arg2", "arg3"];
 
-// const co = [sum1, sum2];
+    for (let i = 0; i <= 3; i++) {
+      const args = sampleArgs.slice(0, i); // simulate different argument counts
 
-// for(let co = 0; co <= 1; )
-// if (co.lenght === 0) {
-//     console.log('1 argument');
-// } else if (code.lenght === 1) {
-//     console.log('0 argument');
-// }
+      console.log(`Testing with ${args.length} argument(s):`);
+      
+      if (args.length === 0) {
+        console.log("No argument");
+      } else if (args.length === 1) {
+        console.log("Argument found");
+      } else {
+        console.log("Arguments found");
+      }
 
-const code = ['java', 'javascript', 'python'];
-
-if (code.length === 0) {
-  console.log('No argument');
-} else if (code.length === 1) {
-  console.log('Argument found');
-} else {
-  console.log('Arguments found');
-}
-
-const cod = ['java', 'python'];
-
-if (cod.length === 0) {
-  console.log('No argument');
-} else if (code.length === 1) {
-  console.log('Argument found');
-} else {
-  console.log('Arguments found');
-}
-
-const c = ['java'];
-
-if (c.length === 0) {
-  console.log('No argument');
-} else if (code.length === 1) {
-  console.log('Argument found');
-} else {
-  console.log('Arguments found');
-}
+      console.log("------"); // separator for clarity
+    }
