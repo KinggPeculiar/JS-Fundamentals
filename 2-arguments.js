@@ -14,3 +14,14 @@ if (code.length === 0) {
 } else {
   console.log('Arguments found');
 }
+
+let sum1 = 3;
+let sum2 = 7;
+
+const co = [sum1, sum2];
+
+if (co.lenght === 0) {
+    console.log('1 argument');
+} else if (code.lenght === 1) {
+    console.log('0 argument');
+}
