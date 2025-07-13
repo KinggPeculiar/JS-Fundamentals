@@ -1,1 +1,1 @@
-A Task by ALX to write a script in JavaScript that logs/prints "JavaScript is Amazing". onto the console.
+Tasks by ALX to write scripts in JavaScript that logs/prints commands onto the console.
